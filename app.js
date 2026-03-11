@@ -174,7 +174,7 @@ function SavingsRunner() {
         {gameOver && (
           <div className="overlay">
             <h2>Game Over!</h2>
-            <p>Du hast {score} CHF gespart 🎉</p>
+            <p>Du hast {score} KeyClub Punkte gewonnen 🎉</p>
             <button
               onClick={() => {
                 setScore(0);
